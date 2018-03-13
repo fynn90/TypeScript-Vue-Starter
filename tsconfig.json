@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": [
+            "dom",
+            "es2015",
+            "es2017",
+            "es2016",
+            "webworker"
+        ],
+        "module": "es2015",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "strict": true,
+        "jsx":"preserve",
+        "jsxFactory": "h",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictFunctionTypes": false,
+        "strictPropertyInitialization": false,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "pretty": true
+    },
+    "include":[
+       "./src/**/*.ts" 
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
