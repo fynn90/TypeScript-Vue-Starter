@@ -9,7 +9,7 @@ var EntryList = fs.readdirSync(Entry).reduce((o,filename)=>{
     o[filename] = './'+path.join(Entry,filename,'main.ts');
     return o;   
 },{})
-
+console.log()
 const isProduction = (process.env.NODE_ENV == 'production'?true:false);
 module.exports = {
     entry: EntryList,
@@ -23,6 +23,7 @@ module.exports = {
             'vue-router': 'vue-router/dist/vue-router.esm.js',
             'vue-mugen-scroll': 'vue-mugen-scroll/dist/vue-mugen-scroll.js',
             'vuex': 'vuex/dist/vuex.esm.js',
+            'Src': path.resolve(__dirname, 'src')
         },
         extensions:['.ts','.tsx','.js']
     },
@@ -96,7 +97,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: path.join(__dirname,'template.html'),
             filename: 'index.html',
-            chunks:['todo'],
+            chunks:['hello'],
             hash: false,
             minify: 
             {
@@ -113,3 +114,8 @@ module.exports = {
         publicPath: "/"
     }
 }
+
+if (process.env.NODE_ENV === 'test') {
+    module.exports.externals = [require('webpack-node-externals')()]
+    module.exports.devtool = 'inline-cheap-module-source-map'
+  }
