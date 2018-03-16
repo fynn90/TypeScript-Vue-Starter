@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "testMocha": "cross-env NODE_ENV=test nyc mocha-webpack --webpack-config webpack.config.js --require test/setup.js test/**/*.spec.js",
-    "build": "cross-env NODE_ENV=development webpack-dev-server --mode development --inline --hot --color",
-    "start": "webpack --mode development --color"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --inline --hot --color",
+    "build": "webpack --mode development --color"
   },
   "repository": {
     "type": "git",
