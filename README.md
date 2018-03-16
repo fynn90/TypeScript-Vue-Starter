@@ -8,9 +8,9 @@
 * [jest](https://facebook.github.io/jest/)
 
 ## 参考
-[https://github.com/Microsoft/TypeScript-Vue-Starter](https://github.com/Microsoft/TypeScript-Vue-Starter)
-[https://codeburst.io/vuex-and-typescript-3427ba78cfa8](https://codeburst.io/vuex-and-typescript-3427ba78cfa8)
-[https://segmentfault.com/a/1190000011864013](https://segmentfault.com/a/1190000011864013)
+[https://github.com/Microsoft/TypeScript-Vue-Starter](https://github.com/Microsoft/TypeScript-Vue-Starter)  
+[https://codeburst.io/vuex-and-typescript-3427ba78cfa8](https://codeburst.io/vuex-and-typescript-3427ba78cfa8)  
+[https://segmentfault.com/a/1190000011864013](https://segmentfault.com/a/1190000011864013)  
 [https://vue-test-utils.vuejs.org/zh-cn/guides/testing-SFCs-with-jest.html](https://vue-test-utils.vuejs.org/zh-cn/guides/testing-SFCs-with-jest.html)
 
 ## Build Setup
