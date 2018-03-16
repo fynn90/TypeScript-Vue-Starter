@@ -317,6 +317,10 @@ ast-types@0.9.6:
   version "0.9.6"
   resolved "http://r.cnpmjs.org/ast-types/download/ast-types-0.9.6.tgz#102c9e9e9005d3e7e3829bf0c4fa24ee862ee9b9"
 
+astral-regex@^1.0.0:
+  version "1.0.0"
+  resolved "http://r.cnpmjs.org/astral-regex/download/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
+
 async-each@^1.0.0:
   version "1.0.1"
   resolved "http://r.cnpmjs.org/async-each/download/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
@@ -329,7 +333,7 @@ async@^1.4.0, async@^1.5.0, async@^1.5.2:
   version "1.5.2"
   resolved "http://r.cnpmjs.org/async/download/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
-async@^2.4.1, async@^2.5.0, async@^2.6.0:
+async@^2.1.4, async@^2.4.1, async@^2.5.0, async@^2.6.0:
   version "2.6.0"
   resolved "http://r.cnpmjs.org/async/download/async-2.6.0.tgz#61a29abb6fcc026fea77e56d1c6ec53a795951f4"
   dependencies:
@@ -396,7 +400,7 @@ babel-code-frame@^6.26.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
-babel-core@^6.24.1, babel-core@^6.26.0:
+babel-core@^6.0.0, babel-core@^6.24.1, babel-core@^6.26.0:
   version "6.26.0"
   resolved "http://r.cnpmjs.org/babel-core/download/babel-core-6.26.0.tgz#af32f78b31a6fcef119c87b0fd8d9753f03a0bb8"
   dependencies:
@@ -558,6 +562,13 @@ babel-jest@^22.4.1:
     babel-plugin-istanbul "^4.1.5"
     babel-preset-jest "^22.4.1"
 
+babel-jest@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/babel-jest/download/babel-jest-23.0.0-alpha.0.tgz#a19c6bff78d7012a2e01e698ae56a8bd3e8cb2f6"
+  dependencies:
+    babel-plugin-istanbul "^4.1.5"
+    babel-preset-jest "^23.0.0-alpha.0"
+
 babel-loader@^7.1.4:
   version "7.1.4"
   resolved "http://r.cnpmjs.org/babel-loader/download/babel-loader-7.1.4.tgz#e3463938bd4e6d55d1c174c5485d406a188ed015"
@@ -598,6 +609,10 @@ babel-plugin-istanbul@^4.1.5:
 babel-plugin-jest-hoist@^22.4.1:
   version "22.4.1"
   resolved "http://r.cnpmjs.org/babel-plugin-jest-hoist/download/babel-plugin-jest-hoist-22.4.1.tgz#d712fe5da8b6965f3191dacddbefdbdf4fb66d63"
+
+babel-plugin-jest-hoist@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/babel-plugin-jest-hoist/download/babel-plugin-jest-hoist-23.0.0-alpha.0.tgz#9d3e334679db15795de6b7df46b04bdb2d191869"
 
 babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"
@@ -983,6 +998,13 @@ babel-preset-jest@^22.4.0, babel-preset-jest@^22.4.1:
     babel-plugin-jest-hoist "^22.4.1"
     babel-plugin-syntax-object-rest-spread "^6.13.0"
 
+babel-preset-jest@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/babel-preset-jest/download/babel-preset-jest-23.0.0-alpha.0.tgz#bb7c274b82ae75303ea368c34c97eb34490417d3"
+  dependencies:
+    babel-plugin-jest-hoist "^23.0.0-alpha.0"
+    babel-plugin-syntax-object-rest-spread "^6.13.0"
+
 babel-preset-stage-1@^6.5.0:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-preset-stage-1/download/babel-preset-stage-1-6.24.1.tgz#7692cd7dcd6849907e6ae4a0a85589cfb9e2bfb0"
@@ -1297,6 +1319,12 @@ browserslist@^2.0.0, browserslist@^2.1.2, browserslist@^2.11.3:
   dependencies:
     caniuse-lite "^1.0.30000792"
     electron-to-chromium "^1.3.30"
+
+bser@^2.0.0:
+  version "2.0.0"
+  resolved "http://r.cnpmjs.org/bser/download/bser-2.0.0.tgz#9ac78d3ed5d915804fd87acb158bc797147a1719"
+  dependencies:
+    node-int64 "^0.4.0"
 
 buffer-indexof@^1.0.0:
   version "1.1.1"
@@ -1766,6 +1794,10 @@ commondir@^1.0.1:
   version "1.0.1"
   resolved "http://r.cnpmjs.org/commondir/download/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
 
+compare-versions@^3.1.0:
+  version "3.1.0"
+  resolved "http://r.cnpmjs.org/compare-versions/download/compare-versions-3.1.0.tgz#43310256a5c555aaed4193c04d8f154cf9c6efd5"
+
 component-emitter@^1.2.1:
   version "1.2.1"
   resolved "http://r.cnpmjs.org/component-emitter/download/component-emitter-1.2.1.tgz#137918d6d78283f7df7a6b7c5a63e140e69425e6"
@@ -1851,7 +1883,7 @@ content-type@~1.0.4:
   version "1.0.4"
   resolved "http://r.cnpmjs.org/content-type/download/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
 
-convert-source-map@^1.5.0, convert-source-map@^1.5.1:
+convert-source-map@^1.4.0, convert-source-map@^1.5.0, convert-source-map@^1.5.1:
   version "1.5.1"
   resolved "http://r.cnpmjs.org/convert-source-map/download/convert-source-map-1.5.1.tgz#b8278097b9bc229365de5c62cf5fcaed8b5599e5"
 
@@ -2297,6 +2329,10 @@ detect-libc@^1.0.2:
   version "1.0.3"
   resolved "http://r.cnpmjs.org/detect-libc/download/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
 
+detect-newline@^2.1.0:
+  version "2.1.0"
+  resolved "http://r.cnpmjs.org/detect-newline/download/detect-newline-2.1.0.tgz#f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
+
 detect-node@^2.0.3:
   version "2.0.3"
   resolved "http://r.cnpmjs.org/detect-node/download/detect-node-2.0.3.tgz#a2033c09cc8e158d37748fbde7507832bd6ce127"
@@ -2592,6 +2628,12 @@ evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
     md5.js "^1.3.4"
     safe-buffer "^5.1.1"
 
+exec-sh@^0.2.0:
+  version "0.2.1"
+  resolved "http://r.cnpmjs.org/exec-sh/download/exec-sh-0.2.1.tgz#163b98a6e89e6b65b47c2a28d215bc1f63989c38"
+  dependencies:
+    merge "^1.1.3"
+
 execa@^0.7.0:
   version "0.7.0"
   resolved "http://r.cnpmjs.org/execa/download/execa-0.7.0.tgz#944becd34cc41ee32a63a9faf27ad5a65fc59777"
@@ -2607,6 +2649,10 @@ execa@^0.7.0:
 exit-hook@^1.0.0:
   version "1.1.1"
   resolved "http://r.cnpmjs.org/exit-hook/download/exit-hook-1.1.1.tgz#f05ca233b48c05d54fff07765df8507e95c02ff8"
+
+exit@^0.1.2:
+  version "0.1.2"
+  resolved "http://r.cnpmjs.org/exit/download/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
 
 expand-brackets@^0.1.4:
   version "0.1.5"
@@ -2647,6 +2693,17 @@ expect@^22.4.0:
     jest-get-type "^22.1.0"
     jest-matcher-utils "^22.4.0"
     jest-message-util "^22.4.0"
+    jest-regex-util "^22.1.0"
+
+expect@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/expect/download/expect-23.0.0-alpha.0.tgz#97b98a27a0941b23f7b43ec237980b914a3fc590"
+  dependencies:
+    ansi-styles "^3.2.0"
+    jest-diff "^22.4.0"
+    jest-get-type "^22.1.0"
+    jest-matcher-utils "^23.0.0-alpha.0"
+    jest-message-util "^23.0.0-alpha.0"
     jest-regex-util "^22.1.0"
 
 express@^4.16.2:
@@ -2779,6 +2836,12 @@ faye-websocket@~0.11.0:
   dependencies:
     websocket-driver ">=0.5.1"
 
+fb-watchman@^2.0.0:
+  version "2.0.0"
+  resolved "http://r.cnpmjs.org/fb-watchman/download/fb-watchman-2.0.0.tgz#54e9abf7dfa2f26cd9b1636c588c1afc05de5d58"
+  dependencies:
+    bser "^2.0.0"
+
 figures@^1.7.0:
   version "1.7.0"
   resolved "http://r.cnpmjs.org/figures/download/figures-1.7.0.tgz#cbe1e3affcf1cd44b80cadfed28dc793a9701d2e"
@@ -2802,6 +2865,13 @@ file-loader@^1.1.11:
 filename-regex@^2.0.0:
   version "2.0.1"
   resolved "http://r.cnpmjs.org/filename-regex/download/filename-regex-2.0.1.tgz#c1c4b9bee3e09725ddb106b75c1e301fe2f18b26"
+
+fileset@^2.0.2:
+  version "2.0.3"
+  resolved "http://r.cnpmjs.org/fileset/download/fileset-2.0.3.tgz#8e7548a96d3cc2327ee5e674168723a333bba2a0"
+  dependencies:
+    glob "^7.0.3"
+    minimatch "^3.0.3"
 
 fill-range@^2.1.0:
   version "2.2.3"
@@ -2984,7 +3054,7 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "http://r.cnpmjs.org/fs.realpath/download/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
-fsevents@^1.0.0:
+fsevents@^1.0.0, fsevents@^1.1.1:
   version "1.1.3"
   resolved "http://r.cnpmjs.org/fsevents/download/fsevents-1.1.3.tgz#11f82318f5fe7bb2cd22965a108e9306208216d8"
   dependencies:
@@ -3194,6 +3264,10 @@ grouped-queue@^0.3.3:
 growl@1.10.3:
   version "1.10.3"
   resolved "http://r.cnpmjs.org/growl/download/growl-1.10.3.tgz#1926ba90cf3edfe2adb4927f5880bc22c66c790f"
+
+growly@^1.3.0:
+  version "1.3.0"
+  resolved "http://r.cnpmjs.org/growly/download/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
 
 handle-thing@^1.2.5:
   version "1.2.5"
@@ -3947,13 +4021,36 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "http://r.cnpmjs.org/isstream/download/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
-istanbul-lib-coverage@^1.1.2, istanbul-lib-coverage@^1.2.0:
+istanbul-api@^1.1.14:
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/istanbul-api/download/istanbul-api-1.3.1.tgz#4c3b05d18c0016d1022e079b98dc82c40f488954"
+  dependencies:
+    async "^2.1.4"
+    compare-versions "^3.1.0"
+    fileset "^2.0.2"
+    istanbul-lib-coverage "^1.2.0"
+    istanbul-lib-hook "^1.2.0"
+    istanbul-lib-instrument "^1.10.1"
+    istanbul-lib-report "^1.1.4"
+    istanbul-lib-source-maps "^1.2.4"
+    istanbul-reports "^1.3.0"
+    js-yaml "^3.7.0"
+    mkdirp "^0.5.1"
+    once "^1.4.0"
+
+istanbul-lib-coverage@^1.1.1, istanbul-lib-coverage@^1.1.2, istanbul-lib-coverage@^1.2.0:
   version "1.2.0"
   resolved "http://r.cnpmjs.org/istanbul-lib-coverage/download/istanbul-lib-coverage-1.2.0.tgz#f7d8f2e42b97e37fe796114cb0f9d68b5e3a4341"
 
 istanbul-lib-hook@^1.1.0:
   version "1.1.0"
   resolved "http://r.cnpmjs.org/istanbul-lib-hook/download/istanbul-lib-hook-1.1.0.tgz#8538d970372cb3716d53e55523dd54b557a8d89b"
+  dependencies:
+    append-transform "^0.4.0"
+
+istanbul-lib-hook@^1.2.0:
+  version "1.2.0"
+  resolved "http://r.cnpmjs.org/istanbul-lib-hook/download/istanbul-lib-hook-1.2.0.tgz#ae556fd5a41a6e8efa0b1002b1e416dfeaf9816c"
   dependencies:
     append-transform "^0.4.0"
 
@@ -3969,7 +4066,7 @@ istanbul-lib-instrument@^1.10.0:
     istanbul-lib-coverage "^1.2.0"
     semver "^5.3.0"
 
-istanbul-lib-instrument@^1.10.1, istanbul-lib-instrument@^1.7.5:
+istanbul-lib-instrument@^1.10.1, istanbul-lib-instrument@^1.7.5, istanbul-lib-instrument@^1.8.0:
   version "1.10.1"
   resolved "http://r.cnpmjs.org/istanbul-lib-instrument/download/istanbul-lib-instrument-1.10.1.tgz#724b4b6caceba8692d3f1f9d0727e279c401af7b"
   dependencies:
@@ -3990,7 +4087,16 @@ istanbul-lib-report@^1.1.3:
     path-parse "^1.0.5"
     supports-color "^3.1.2"
 
-istanbul-lib-source-maps@^1.2.3:
+istanbul-lib-report@^1.1.4:
+  version "1.1.4"
+  resolved "http://r.cnpmjs.org/istanbul-lib-report/download/istanbul-lib-report-1.1.4.tgz#e886cdf505c4ebbd8e099e4396a90d0a28e2acb5"
+  dependencies:
+    istanbul-lib-coverage "^1.2.0"
+    mkdirp "^0.5.1"
+    path-parse "^1.0.5"
+    supports-color "^3.1.2"
+
+istanbul-lib-source-maps@^1.2.1, istanbul-lib-source-maps@^1.2.3:
   version "1.2.3"
   resolved "http://r.cnpmjs.org/istanbul-lib-source-maps/download/istanbul-lib-source-maps-1.2.3.tgz#20fb54b14e14b3fb6edb6aca3571fd2143db44e6"
   dependencies:
@@ -4000,7 +4106,17 @@ istanbul-lib-source-maps@^1.2.3:
     rimraf "^2.6.1"
     source-map "^0.5.3"
 
-istanbul-reports@^1.1.4:
+istanbul-lib-source-maps@^1.2.4:
+  version "1.2.4"
+  resolved "http://r.cnpmjs.org/istanbul-lib-source-maps/download/istanbul-lib-source-maps-1.2.4.tgz#cc7ccad61629f4efff8e2f78adb8c522c9976ec7"
+  dependencies:
+    debug "^3.1.0"
+    istanbul-lib-coverage "^1.2.0"
+    mkdirp "^0.5.1"
+    rimraf "^2.6.1"
+    source-map "^0.5.3"
+
+istanbul-reports@^1.1.4, istanbul-reports@^1.3.0:
   version "1.3.0"
   resolved "http://r.cnpmjs.org/istanbul-reports/download/istanbul-reports-1.3.0.tgz#2f322e81e1d9520767597dca3c20a0cce89a3554"
   dependencies:
@@ -4021,6 +4137,51 @@ isurl@^1.0.0-alpha5:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
 
+jest-changed-files@^22.2.0:
+  version "22.2.0"
+  resolved "http://r.cnpmjs.org/jest-changed-files/download/jest-changed-files-22.2.0.tgz#517610c4a8ca0925bdc88b0ca53bd678aa8d019e"
+  dependencies:
+    throat "^4.0.0"
+
+jest-cli@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-cli/download/jest-cli-23.0.0-alpha.0.tgz#ba4211bf22d53a2abadabb80f4dfcaef749b3287"
+  dependencies:
+    ansi-escapes "^3.0.0"
+    chalk "^2.0.1"
+    exit "^0.1.2"
+    glob "^7.1.2"
+    graceful-fs "^4.1.11"
+    import-local "^1.0.0"
+    is-ci "^1.0.10"
+    istanbul-api "^1.1.14"
+    istanbul-lib-coverage "^1.1.1"
+    istanbul-lib-instrument "^1.8.0"
+    istanbul-lib-source-maps "^1.2.1"
+    jest-changed-files "^22.2.0"
+    jest-config "^23.0.0-alpha.0"
+    jest-environment-jsdom "^23.0.0-alpha.0"
+    jest-get-type "^22.1.0"
+    jest-haste-map "^23.0.0-alpha.0"
+    jest-message-util "^23.0.0-alpha.0"
+    jest-regex-util "^22.1.0"
+    jest-resolve-dependencies "^22.1.0"
+    jest-runner "^23.0.0-alpha.0"
+    jest-runtime "^23.0.0-alpha.0"
+    jest-snapshot "^23.0.0-alpha.0"
+    jest-util "^23.0.0-alpha.0"
+    jest-validate "^23.0.0-alpha.0"
+    jest-worker "^23.0.0-alpha.0"
+    micromatch "^2.3.11"
+    node-notifier "^5.2.1"
+    realpath-native "^1.0.0"
+    rimraf "^2.5.4"
+    slash "^1.0.0"
+    string-length "^2.0.0"
+    strip-ansi "^4.0.0"
+    which "^1.2.12"
+    yargs "^11.0.0"
+
 jest-config@^22.4.0, jest-config@^22.4.2:
   version "22.4.2"
   resolved "http://r.cnpmjs.org/jest-config/download/jest-config-22.4.2.tgz#580ba5819bf81a5e48f4fd470e8b81834f45c855"
@@ -4037,6 +4198,22 @@ jest-config@^22.4.0, jest-config@^22.4.2:
     jest-validate "^22.4.2"
     pretty-format "^22.4.0"
 
+jest-config@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-config/download/jest-config-23.0.0-alpha.0.tgz#fc5dfa9e2b83e21e646c765d2615424401de59e3"
+  dependencies:
+    chalk "^2.0.1"
+    glob "^7.1.1"
+    jest-environment-jsdom "^23.0.0-alpha.0"
+    jest-environment-node "^23.0.0-alpha.0"
+    jest-get-type "^22.1.0"
+    jest-jasmine2 "^23.0.0-alpha.0"
+    jest-regex-util "^22.1.0"
+    jest-resolve "^23.0.0-alpha.0"
+    jest-util "^23.0.0-alpha.0"
+    jest-validate "^23.0.0-alpha.0"
+    pretty-format "^22.4.0"
+
 jest-diff@^22.4.0:
   version "22.4.0"
   resolved "http://r.cnpmjs.org/jest-diff/download/jest-diff-22.4.0.tgz#384c2b78519ca44ca126382df53f134289232525"
@@ -4046,12 +4223,26 @@ jest-diff@^22.4.0:
     jest-get-type "^22.1.0"
     pretty-format "^22.4.0"
 
+jest-docblock@^22.4.0:
+  version "22.4.0"
+  resolved "http://r.cnpmjs.org/jest-docblock/download/jest-docblock-22.4.0.tgz#dbf1877e2550070cfc4d9b07a55775a0483159b8"
+  dependencies:
+    detect-newline "^2.1.0"
+
 jest-environment-jsdom@^22.4.1:
   version "22.4.1"
   resolved "http://r.cnpmjs.org/jest-environment-jsdom/download/jest-environment-jsdom-22.4.1.tgz#754f408872441740100d3917e5ec40c74de6447f"
   dependencies:
     jest-mock "^22.2.0"
     jest-util "^22.4.1"
+    jsdom "^11.5.1"
+
+jest-environment-jsdom@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-environment-jsdom/download/jest-environment-jsdom-23.0.0-alpha.0.tgz#44e962603620d515e7660007bdd9e3e3236a8ff2"
+  dependencies:
+    jest-mock "^23.0.0-alpha.0"
+    jest-util "^23.0.0-alpha.0"
     jsdom "^11.5.1"
 
 jest-environment-node@^22.4.1:
@@ -4061,9 +4252,28 @@ jest-environment-node@^22.4.1:
     jest-mock "^22.2.0"
     jest-util "^22.4.1"
 
+jest-environment-node@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-environment-node/download/jest-environment-node-23.0.0-alpha.0.tgz#befbd28321acdaca1e339c17f9885474e3585931"
+  dependencies:
+    jest-mock "^23.0.0-alpha.0"
+    jest-util "^23.0.0-alpha.0"
+
 jest-get-type@^22.1.0:
   version "22.1.0"
   resolved "http://r.cnpmjs.org/jest-get-type/download/jest-get-type-22.1.0.tgz#4e90af298ed6181edc85d2da500dbd2753e0d5a9"
+
+jest-haste-map@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-haste-map/download/jest-haste-map-23.0.0-alpha.0.tgz#508d0e4d03cfddae98bc83ab829486800efefb2a"
+  dependencies:
+    fb-watchman "^2.0.0"
+    graceful-fs "^4.1.11"
+    jest-docblock "^22.4.0"
+    jest-serializer "^22.4.0"
+    jest-worker "^23.0.0-alpha.0"
+    micromatch "^2.3.11"
+    sane "^2.0.0"
 
 jest-jasmine2@^22.4.2:
   version "22.4.2"
@@ -4081,9 +4291,39 @@ jest-jasmine2@^22.4.2:
     jest-util "^22.4.1"
     source-map-support "^0.5.0"
 
+jest-jasmine2@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-jasmine2/download/jest-jasmine2-23.0.0-alpha.0.tgz#c8f65ed2aa4696c0abb9469c437619e906557bdb"
+  dependencies:
+    chalk "^2.0.1"
+    co "^4.6.0"
+    expect "^23.0.0-alpha.0"
+    graceful-fs "^4.1.11"
+    is-generator-fn "^1.0.0"
+    jest-diff "^22.4.0"
+    jest-matcher-utils "^23.0.0-alpha.0"
+    jest-message-util "^23.0.0-alpha.0"
+    jest-snapshot "^23.0.0-alpha.0"
+    jest-util "^23.0.0-alpha.0"
+    source-map-support "^0.5.0"
+
+jest-leak-detector@^22.4.0:
+  version "22.4.0"
+  resolved "http://r.cnpmjs.org/jest-leak-detector/download/jest-leak-detector-22.4.0.tgz#64da77f05b001c96d2062226e079f89989c4aa2f"
+  dependencies:
+    pretty-format "^22.4.0"
+
 jest-matcher-utils@^22.4.0:
   version "22.4.0"
   resolved "http://r.cnpmjs.org/jest-matcher-utils/download/jest-matcher-utils-22.4.0.tgz#d55f5faf2270462736bdf7c7485ee931c9d4b6a1"
+  dependencies:
+    chalk "^2.0.1"
+    jest-get-type "^22.1.0"
+    pretty-format "^22.4.0"
+
+jest-matcher-utils@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-matcher-utils/download/jest-matcher-utils-23.0.0-alpha.0.tgz#802947739cb6e72a9bda794f1fe6d47432bb2426"
   dependencies:
     chalk "^2.0.1"
     jest-get-type "^22.1.0"
@@ -4099,13 +4339,33 @@ jest-message-util@^22.4.0:
     slash "^1.0.0"
     stack-utils "^1.0.1"
 
+jest-message-util@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-message-util/download/jest-message-util-23.0.0-alpha.0.tgz#18fa4a3f52af2bf6dfaa5ff217865860387d3c17"
+  dependencies:
+    "@babel/code-frame" "^7.0.0-beta.35"
+    chalk "^2.0.1"
+    micromatch "^2.3.11"
+    slash "^1.0.0"
+    stack-utils "^1.0.1"
+
 jest-mock@^22.2.0:
   version "22.2.0"
   resolved "http://r.cnpmjs.org/jest-mock/download/jest-mock-22.2.0.tgz#444b3f9488a7473adae09bc8a77294afded397a7"
 
+jest-mock@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-mock/download/jest-mock-23.0.0-alpha.0.tgz#d2a1fd81d8356b24fe602650e61acc49e008f9df"
+
 jest-regex-util@^22.1.0:
   version "22.1.0"
   resolved "http://r.cnpmjs.org/jest-regex-util/download/jest-regex-util-22.1.0.tgz#5daf2fe270074b6da63e5d85f1c9acc866768f53"
+
+jest-resolve-dependencies@^22.1.0:
+  version "22.1.0"
+  resolved "http://r.cnpmjs.org/jest-resolve-dependencies/download/jest-resolve-dependencies-22.1.0.tgz#340e4139fb13315cd43abc054e6c06136be51e31"
+  dependencies:
+    jest-regex-util "^22.1.0"
 
 jest-resolve@^22.4.2:
   version "22.4.2"
@@ -4114,11 +4374,64 @@ jest-resolve@^22.4.2:
     browser-resolve "^1.11.2"
     chalk "^2.0.1"
 
+jest-resolve@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-resolve/download/jest-resolve-23.0.0-alpha.0.tgz#198bbe5e2e4715b7b4f82fc4c8562c131584da77"
+  dependencies:
+    browser-resolve "^1.11.2"
+    chalk "^2.0.1"
+    realpath-native "^1.0.0"
+
+jest-runner@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-runner/download/jest-runner-23.0.0-alpha.0.tgz#a767f90c1e2fc83d2a0905c9342f3831ad7f7bf4"
+  dependencies:
+    exit "^0.1.2"
+    jest-config "^23.0.0-alpha.0"
+    jest-docblock "^22.4.0"
+    jest-haste-map "^23.0.0-alpha.0"
+    jest-jasmine2 "^23.0.0-alpha.0"
+    jest-leak-detector "^22.4.0"
+    jest-message-util "^23.0.0-alpha.0"
+    jest-runtime "^23.0.0-alpha.0"
+    jest-util "^23.0.0-alpha.0"
+    jest-worker "^23.0.0-alpha.0"
+    throat "^4.0.0"
+
+jest-runtime@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-runtime/download/jest-runtime-23.0.0-alpha.0.tgz#ac511dd7b0b48074106f48e96e1b0391c9fe30b8"
+  dependencies:
+    babel-core "^6.0.0"
+    babel-jest "^23.0.0-alpha.0"
+    babel-plugin-istanbul "^4.1.5"
+    chalk "^2.0.1"
+    convert-source-map "^1.4.0"
+    exit "^0.1.2"
+    graceful-fs "^4.1.11"
+    jest-config "^23.0.0-alpha.0"
+    jest-haste-map "^23.0.0-alpha.0"
+    jest-regex-util "^22.1.0"
+    jest-resolve "^23.0.0-alpha.0"
+    jest-util "^23.0.0-alpha.0"
+    jest-validate "^23.0.0-alpha.0"
+    json-stable-stringify "^1.0.1"
+    micromatch "^2.3.11"
+    realpath-native "^1.0.0"
+    slash "^1.0.0"
+    strip-bom "3.0.0"
+    write-file-atomic "^2.1.0"
+    yargs "^11.0.0"
+
 jest-serializer-vue@^1.0.0:
   version "1.0.0"
   resolved "http://r.cnpmjs.org/jest-serializer-vue/download/jest-serializer-vue-1.0.0.tgz#82514e9b3d94a17fe618df3ede84046090f94815"
   dependencies:
     pretty "2.0.0"
+
+jest-serializer@^22.4.0:
+  version "22.4.0"
+  resolved "http://r.cnpmjs.org/jest-serializer/download/jest-serializer-22.4.0.tgz#b5d145b98c4b0d2c20ab686609adbb81fe23b566"
 
 jest-snapshot@^22.4.0:
   version "22.4.0"
@@ -4127,6 +4440,17 @@ jest-snapshot@^22.4.0:
     chalk "^2.0.1"
     jest-diff "^22.4.0"
     jest-matcher-utils "^22.4.0"
+    mkdirp "^0.5.1"
+    natural-compare "^1.4.0"
+    pretty-format "^22.4.0"
+
+jest-snapshot@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-snapshot/download/jest-snapshot-23.0.0-alpha.0.tgz#c365611f64bc5a24f722e24301c2db0f85cc312f"
+  dependencies:
+    chalk "^2.0.1"
+    jest-diff "^22.4.0"
+    jest-matcher-utils "^23.0.0-alpha.0"
     mkdirp "^0.5.1"
     natural-compare "^1.4.0"
     pretty-format "^22.4.0"
@@ -4143,6 +4467,18 @@ jest-util@^22.4.1:
     mkdirp "^0.5.1"
     source-map "^0.6.0"
 
+jest-util@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-util/download/jest-util-23.0.0-alpha.0.tgz#ff4b9d0990e57121a220f571e4415a5316ad3777"
+  dependencies:
+    callsites "^2.0.0"
+    chalk "^2.0.1"
+    graceful-fs "^4.1.11"
+    is-ci "^1.0.10"
+    jest-message-util "^23.0.0-alpha.0"
+    mkdirp "^0.5.1"
+    source-map "^0.6.0"
+
 jest-validate@^22.4.2:
   version "22.4.2"
   resolved "http://r.cnpmjs.org/jest-validate/download/jest-validate-22.4.2.tgz#e789a4e056173bf97fe797a2df2d52105c57d4f4"
@@ -4152,6 +4488,29 @@ jest-validate@^22.4.2:
     jest-get-type "^22.1.0"
     leven "^2.1.0"
     pretty-format "^22.4.0"
+
+jest-validate@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-validate/download/jest-validate-23.0.0-alpha.0.tgz#87e2ac0323b21b0cdeb7772e72b9a1a2cc8d0696"
+  dependencies:
+    chalk "^2.0.1"
+    jest-config "^23.0.0-alpha.0"
+    jest-get-type "^22.1.0"
+    leven "^2.1.0"
+    pretty-format "^22.4.0"
+
+jest-worker@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest-worker/download/jest-worker-23.0.0-alpha.0.tgz#7f8db5e97d4f6cdff199d726585daadde52a4694"
+  dependencies:
+    merge-stream "^1.0.1"
+
+jest@^23.0.0-alpha.0:
+  version "23.0.0-alpha.0"
+  resolved "http://r.cnpmjs.org/jest/download/jest-23.0.0-alpha.0.tgz#94a9ca3aa24d5e7d4c30fe2507e8762dea5382d7"
+  dependencies:
+    import-local "^1.0.0"
+    jest-cli "^23.0.0-alpha.0"
 
 js-base64@^2.1.9:
   version "2.4.3"
@@ -4170,7 +4529,7 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
   resolved "http://r.cnpmjs.org/js-tokens/download/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
-js-yaml@^3.4.3:
+js-yaml@^3.4.3, js-yaml@^3.7.0:
   version "3.11.0"
   resolved "http://r.cnpmjs.org/js-yaml/download/js-yaml-3.11.0.tgz#597c1a8bd57152f26d622ce4117851a51f5ebaef"
   dependencies:
@@ -4605,6 +4964,12 @@ make-dir@^1.0.0, make-dir@^1.1.0:
   dependencies:
     pify "^3.0.0"
 
+makeerror@1.0.x:
+  version "1.0.11"
+  resolved "http://r.cnpmjs.org/makeerror/download/makeerror-1.0.11.tgz#e01a5c9109f2af79660e4e8b9587790184f5a96c"
+  dependencies:
+    tmpl "1.0.x"
+
 map-cache@^0.2.2:
   version "0.2.2"
   resolved "http://r.cnpmjs.org/map-cache/download/map-cache-0.2.2.tgz#c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf"
@@ -4705,6 +5070,16 @@ merge-source-map@^1.0.2:
   dependencies:
     source-map "^0.6.1"
 
+merge-stream@^1.0.1:
+  version "1.0.1"
+  resolved "http://r.cnpmjs.org/merge-stream/download/merge-stream-1.0.1.tgz#4041202d508a342ba00174008df0c251b8c135e1"
+  dependencies:
+    readable-stream "^2.0.1"
+
+merge@^1.1.3:
+  version "1.2.0"
+  resolved "http://r.cnpmjs.org/merge/download/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
+
 methods@~1.1.2:
   version "1.1.2"
   resolved "http://r.cnpmjs.org/methods/download/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
@@ -4786,7 +5161,7 @@ minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
   version "1.0.1"
   resolved "http://r.cnpmjs.org/minimalistic-crypto-utils/download/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
 
-minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4:
+minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
   resolved "http://r.cnpmjs.org/minimatch/download/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   dependencies:
@@ -4800,7 +5175,7 @@ minimist@^0.1.0:
   version "0.1.0"
   resolved "http://r.cnpmjs.org/minimist/download/minimist-0.1.0.tgz#99df657a52574c21c9057497df742790b2b4c0de"
 
-minimist@^1.1.0, minimist@^1.1.3, minimist@^1.2.0:
+minimist@^1.1.0, minimist@^1.1.1, minimist@^1.1.3, minimist@^1.2.0:
   version "1.2.0"
   resolved "http://r.cnpmjs.org/minimist/download/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
 
@@ -4975,6 +5350,10 @@ node-forge@0.7.1:
   version "0.7.1"
   resolved "http://r.cnpmjs.org/node-forge/download/node-forge-0.7.1.tgz#9da611ea08982f4b94206b3beb4cc9665f20c300"
 
+node-int64@^0.4.0:
+  version "0.4.0"
+  resolved "http://r.cnpmjs.org/node-int64/download/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
+
 node-libs-browser@^2.0.0:
   version "2.1.0"
   resolved "http://r.cnpmjs.org/node-libs-browser/download/node-libs-browser-2.1.0.tgz#5f94263d404f6e44767d726901fff05478d600df"
@@ -5002,6 +5381,15 @@ node-libs-browser@^2.0.0:
     url "^0.11.0"
     util "^0.10.3"
     vm-browserify "0.0.4"
+
+node-notifier@^5.2.1:
+  version "5.2.1"
+  resolved "http://r.cnpmjs.org/node-notifier/download/node-notifier-5.2.1.tgz#fa313dd08f5517db0e2502e5758d664ac69f9dea"
+  dependencies:
+    growly "^1.3.0"
+    semver "^5.4.1"
+    shellwords "^0.1.1"
+    which "^1.3.0"
 
 node-pre-gyp@^0.6.39:
   version "0.6.39"
@@ -6374,6 +6762,12 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
+realpath-native@^1.0.0:
+  version "1.0.0"
+  resolved "http://r.cnpmjs.org/realpath-native/download/realpath-native-1.0.0.tgz#7885721a83b43bd5327609f0ddecb2482305fdf0"
+  dependencies:
+    util.promisify "^1.0.0"
+
 recast@^0.12.5:
   version "0.12.9"
   resolved "http://r.cnpmjs.org/recast/download/recast-0.12.9.tgz#e8e52bdb9691af462ccbd7c15d5a5113647a15f1"
@@ -6751,6 +7145,20 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
+sane@^2.0.0:
+  version "2.5.0"
+  resolved "http://r.cnpmjs.org/sane/download/sane-2.5.0.tgz#6359cd676f5efd9988b264d8ce3b827dd6b27bec"
+  dependencies:
+    anymatch "^2.0.0"
+    exec-sh "^0.2.0"
+    fb-watchman "^2.0.0"
+    micromatch "^3.1.4"
+    minimist "^1.1.1"
+    walker "~1.0.5"
+    watch "~0.18.0"
+  optionalDependencies:
+    fsevents "^1.1.1"
+
 sax@^1.2.4, sax@~1.2.1:
   version "1.2.4"
   resolved "http://r.cnpmjs.org/sax/download/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
@@ -6776,7 +7184,7 @@ selfsigned@^1.9.1:
   dependencies:
     node-forge "0.7.1"
 
-"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0, semver@^5.5.0:
+"semver@2 || 3 || 4 || 5", semver@^5.0.1, semver@^5.1.0, semver@^5.3.0, semver@^5.4.1, semver@^5.5.0:
   version "5.5.0"
   resolved "http://r.cnpmjs.org/semver/download/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
 
@@ -6900,6 +7308,10 @@ shelljs@^0.8.0:
     glob "^7.0.0"
     interpret "^1.0.0"
     rechoir "^0.6.2"
+
+shellwords@^0.1.1:
+  version "0.1.1"
+  resolved "http://r.cnpmjs.org/shellwords/download/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
 
 sigmund@^1.0.1:
   version "1.0.1"
@@ -7214,6 +7626,13 @@ strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "http://r.cnpmjs.org/strict-uri-encode/download/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
 
+string-length@^2.0.0:
+  version "2.0.0"
+  resolved "http://r.cnpmjs.org/string-length/download/string-length-2.0.0.tgz#d40dbb686a3ace960c1cffca562bf2c45f8363ed"
+  dependencies:
+    astral-regex "^1.0.0"
+    strip-ansi "^4.0.0"
+
 string-template@~0.2.1:
   version "0.2.1"
   resolved "http://r.cnpmjs.org/string-template/download/string-template-0.2.1.tgz#42932e598a352d01fc22ec3367d9d84eec6c9add"
@@ -7276,15 +7695,15 @@ strip-bom-stream@^2.0.0:
     first-chunk-stream "^2.0.0"
     strip-bom "^2.0.0"
 
+strip-bom@3.0.0, strip-bom@^3.0.0:
+  version "3.0.0"
+  resolved "http://r.cnpmjs.org/strip-bom/download/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
+
 strip-bom@^2.0.0:
   version "2.0.0"
   resolved "http://r.cnpmjs.org/strip-bom/download/strip-bom-2.0.0.tgz#6219a85616520491f35788bdbf1447a99c7e6b0e"
   dependencies:
     is-utf8 "^0.2.0"
-
-strip-bom@^3.0.0:
-  version "3.0.0"
-  resolved "http://r.cnpmjs.org/strip-bom/download/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
 
 strip-eof@^1.0.0:
   version "1.0.0"
@@ -7409,6 +7828,10 @@ textextensions@2:
   version "2.2.0"
   resolved "http://r.cnpmjs.org/textextensions/download/textextensions-2.2.0.tgz#38ac676151285b658654581987a0ce1a4490d286"
 
+throat@^4.0.0:
+  version "4.1.0"
+  resolved "http://r.cnpmjs.org/throat/download/throat-4.1.0.tgz#89037cbc92c56ab18926e6ba4cbb200e15672a6a"
+
 through2@^2.0.0:
   version "2.0.3"
   resolved "http://r.cnpmjs.org/through2/download/through2-2.0.3.tgz#0004569b37c7c74ba39c43f3ced78d1ad94140be"
@@ -7439,6 +7862,10 @@ tmp@^0.0.33:
   resolved "http://r.cnpmjs.org/tmp/download/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
   dependencies:
     os-tmpdir "~1.0.2"
+
+tmpl@1.0.x:
+  version "1.0.4"
+  resolved "http://r.cnpmjs.org/tmpl/download/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
@@ -7748,7 +8175,7 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "http://r.cnpmjs.org/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
 
-util.promisify@1.0.0:
+util.promisify@1.0.0, util.promisify@^1.0.0:
   version "1.0.0"
   resolved "http://r.cnpmjs.org/util.promisify/download/util.promisify-1.0.0.tgz#440f7165a459c9a16dc145eb8e72f35687097030"
   dependencies:
@@ -7940,6 +8367,19 @@ w3c-hr-time@^1.0.1:
   dependencies:
     browser-process-hrtime "^0.1.2"
 
+walker@~1.0.5:
+  version "1.0.7"
+  resolved "http://r.cnpmjs.org/walker/download/walker-1.0.7.tgz#2f7f9b8fd10d677262b18a884e28d19618e028fb"
+  dependencies:
+    makeerror "1.0.x"
+
+watch@~0.18.0:
+  version "0.18.0"
+  resolved "http://r.cnpmjs.org/watch/download/watch-0.18.0.tgz#28095476c6df7c90c963138990c0a5423eb4b986"
+  dependencies:
+    exec-sh "^0.2.0"
+    minimist "^1.2.0"
+
 watchpack@^1.5.0:
   version "1.5.0"
   resolved "http://r.cnpmjs.org/watchpack/download/watchpack-1.5.0.tgz#231e783af830a22f8966f65c4c4bacc814072eed"
@@ -8120,7 +8560,7 @@ which-module@^2.0.0:
   version "2.0.0"
   resolved "http://r.cnpmjs.org/which-module/download/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
 
-which@^1.2.14, which@^1.2.9, which@^1.3.0:
+which@^1.2.12, which@^1.2.14, which@^1.2.9, which@^1.3.0:
   version "1.3.0"
   resolved "http://r.cnpmjs.org/which/download/which-1.3.0.tgz#ff04bdfc010ee547d780bec38e1ac1c2777d253a"
   dependencies:
@@ -8176,6 +8616,14 @@ write-file-atomic@^1.1.4, write-file-atomic@^1.2.0:
     graceful-fs "^4.1.11"
     imurmurhash "^0.1.4"
     slide "^1.1.5"
+
+write-file-atomic@^2.1.0:
+  version "2.3.0"
+  resolved "http://r.cnpmjs.org/write-file-atomic/download/write-file-atomic-2.3.0.tgz#1ff61575c2e2a4e8e510d6fa4e243cce183999ab"
+  dependencies:
+    graceful-fs "^4.1.11"
+    imurmurhash "^0.1.4"
+    signal-exit "^3.0.2"
 
 ws@^4.0.0:
   version "4.1.0"

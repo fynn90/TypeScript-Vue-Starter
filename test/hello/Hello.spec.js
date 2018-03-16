@@ -1,5 +1,5 @@
 import { shallow } from '@vue/test-utils'
-import Hello from 'Src/hello/components/Hello.vue'
+import Hello from '@/hello/components/Hello.vue'
 
 describe('Hello.vue', () => {
     it("render hello component", () => {

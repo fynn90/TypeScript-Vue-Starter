@@ -23,7 +23,7 @@ module.exports = {
             'vue-router': 'vue-router/dist/vue-router.esm.js',
             'vue-mugen-scroll': 'vue-mugen-scroll/dist/vue-mugen-scroll.js',
             'vuex': 'vuex/dist/vuex.esm.js',
-            'Src': path.resolve(__dirname, 'src')
+            '@': path.resolve(__dirname, 'src')
         },
         extensions:['.ts','.tsx','.js']
     },
