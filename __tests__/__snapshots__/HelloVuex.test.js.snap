@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloVuex Component HelloVuex Component snapshots 1`] = `
+<div>
+  <div class="greeting">Hello Fynn!!!</div>
+  <button>-</button>
+  <button>+</button>
+</div>
+`;

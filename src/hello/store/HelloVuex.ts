@@ -5,7 +5,7 @@ interface data {
 }
 const state: data = {
     name: 'Fynn',
-    count: 1
+    count: 2
 }
 
 const getters = {
