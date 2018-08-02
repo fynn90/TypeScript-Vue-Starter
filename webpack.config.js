@@ -9,7 +9,7 @@ var EntryList = fs.readdirSync(Entry).reduce((o,filename)=>{
     o[filename] = './'+path.join(Entry,filename,'main.ts');
     return o;   
 },{})
-const isProduction = (process.env.NODE_ENV == 'production'?true:false);
+const isProduction = (process.env.NODE_ENV === 'production');
 module.exports = {
     entry: EntryList,
     output: {
